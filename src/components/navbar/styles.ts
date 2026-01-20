@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { styled } from 'styled-components';
 
-/* ---------------------- NAVBAR CONTAINER ---------------------- */
 interface NavbarContainerProps {
   $expanded: boolean;
 }
@@ -25,7 +24,6 @@ export const NavbarContainer = styled.div<NavbarContainerProps>`
   border-bottom-right-radius: 100px;
 `;
 
-/* ---------------------- LOGO ---------------------- */
 export const LogoButton = styled.div`
   display: flex;
   align-items: center;
@@ -76,7 +74,6 @@ export const LogoText = styled.div<LogoTextProps>`
   }
 `;
 
-/* ---------------------- NAV LINKS ---------------------- */
 interface NavLinkProps {
   $selected: boolean;
 }
@@ -156,7 +153,6 @@ export const NavLinkText = styled.span<NavLinkTextProps>`
   padding-right: 0.5rem;
 `;
 
-/* ---------------------- NAV CONTAINER ---------------------- */
 interface NavProps {
   $expanded: boolean;
 }
@@ -170,7 +166,6 @@ export const Nav = styled.nav<NavProps>`
   margin-top: -1rem;
 `;
 
-/* ---------------------- DIVIDER ---------------------- */
 export const Divider = styled.div`
   width: 90%;
   height: 1px;
